@@ -13,7 +13,7 @@ $ bundle exec rails s
 Your app should now be running on [http://localhost:3000](http://localhost:3000).
 
 # Ruby version
-2.3.0+ required
+2.3.0 required
 
 # System dependencies
 
@@ -22,6 +22,11 @@ Your app should now be running on [http://localhost:3000](http://localhost:3000)
 # Database creation
 
 # Database initialization
+
+# Database for production
+See following pages:  
+- https://devcenter.heroku.com/articles/getting-started-with-rails5#database
+- https://devcenter.heroku.com/articles/rails-database-connection-behavior
 
 # How to run the test suite
 
