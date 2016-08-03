@@ -6,8 +6,9 @@
 $ git clone git@github.com:tayutaedomo/heroku-rails-5.git
 $ cd heroku-rails-5
 $ bundle install --path vendor/bundle
-$ bundle exec rake db:create
-$ bundle exec rails s
+$ bin/rake db:create
+$ bin/rake db:migrate
+$ bin/rails s
 ```
 
 Your app should now be running on [http://localhost:3000](http://localhost:3000).
